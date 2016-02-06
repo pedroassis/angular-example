@@ -1,0 +1,11 @@
+{
+  "name": "angular",
+  "version": "1.0.0",
+  "description": "1. Instalar Node.js / npm 2. bower `npm install -g bower` 3. Instalar git 4.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
