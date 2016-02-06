@@ -4,5 +4,8 @@
   "authors": [
     "Pedro Henrique de Assis <pedro@pedroassis.com.br>"
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "~3.3.6"
+  }
 }
