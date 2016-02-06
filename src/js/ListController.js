@@ -3,7 +3,7 @@ function ListController($http, $scope) {
     
     $scope.contacts = ["Test", "1234656", 123456];
     
-    $http.get("http://143575fa.ngrok.io/contacts").then(function(resposta){
+    $http.get("http://localhost:8080/contacts").then(function(resposta){
         $scope.contacts = resposta.data;
     });
     
@@ -15,7 +15,7 @@ function ListController($http, $scope) {
         var request = {
             name : item
         };
-        $http.post("http://143575fa.ngrok.io/add", request).then(function(resposta){
+        $http.post("http://localhost:8080/add", request).then(function(resposta){
             $scope.contacts = resposta.data;
         });
     };
